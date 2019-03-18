@@ -4,7 +4,7 @@
         method: GET
     response:
         status: 200
-        body: '{"items": [{"name": "khazi","id": "khazi123"}, {"name": "afzal","id": "afzal123"}]}'
+        body: '{"items": [{"name": "khazi","age": "28", "designation": "Software Tester"}, {"name": "afzal","age": "29", "designation": "Software Programmer"}]}'
 
 -   request:
         url: ^/api/employes$

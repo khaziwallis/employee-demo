@@ -30,6 +30,7 @@ class CreateEmployee extends Component<IProps, IState> {
             };
             createEmployee(data).then(() => {
                 alert('Employee succesfully created...');
+                this.resetForm();
             })
             .catch((e)=> {
                 alert('Error creating Employee...');
@@ -38,7 +39,7 @@ class CreateEmployee extends Component<IProps, IState> {
             alert('Please fill all fields.');
         }
     }
-    resetForm(event: any) {
+    resetForm() {
         this.setState({
             'name': '',
             'age': '',

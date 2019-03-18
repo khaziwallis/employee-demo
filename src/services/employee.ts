@@ -6,7 +6,7 @@ export const getEmployees = async () => {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     };
-    const res = await axios.get(API_URL + `/employees`, { headers: headers });
+    const res = await axios.get(API_URL + `/listEmployees`, { headers: headers });
     return await res;
 };
 
@@ -15,6 +15,6 @@ export const createEmployee = async (data: any) => {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     };
-    const res = await axios.post(API_URL + `/employes`, data, { headers: headers });
+    const res = await axios.post(API_URL + `/createEmployee`, data, { headers: headers });
     return await res;
 };
