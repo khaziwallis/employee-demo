@@ -1,0 +1,54 @@
+{
+  "name": "react-learning",
+  "version": "0.1.0",
+  "description": "React/Redux/Typescript stack front end application seed project",
+  "author": "khazi afzal <khaziwallis@gmail.com>",
+  "license": "MIT",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "stubbed": "./node_modules/.bin/gulp onlystubbed & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --verbose",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.2",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "typescript": "^3.1.6",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-open": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.6.5",
+    "gulp-yaml": "^2.0.2",
+    "node-sass": "^4.9.4",
+    "stubby": "^4.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

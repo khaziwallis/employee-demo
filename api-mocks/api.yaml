@@ -1,0 +1,13 @@
+# Get Call Sample PAI
+-   request:
+        url: ^/api/employes$
+        method: GET
+    response:
+        status: 200
+        body: '{"items": [{"name": "khazi","id": "khazi123"}, {"name": "afzal","id": "afzal123"}]}'
+
+-   request:
+        url: ^/api/employes$
+        method: POST
+    response:
+        status: 200
